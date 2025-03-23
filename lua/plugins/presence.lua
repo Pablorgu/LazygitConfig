@@ -1,0 +1,3 @@
+﻿return {
+  "andweeb/presence.nvim",
+}
