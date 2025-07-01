@@ -52,13 +52,13 @@ return {
     hints = { enabled = false },
     windows = {
       ---@type "right" | "left" | "top" | "bottom"
-      position = "left", -- the position of the sidebar
+      position = "right", -- the position of the sidebar
       wrap = true, -- similar to vim.o.wrap
       width = 30, -- default % based on available width
       sidebar_header = {
         enabled = true, -- true, false to enable/disable the header
         align = "center", -- left, center, right for title
-        rounded = false,
+        rounded = true,
       },
       input = {
         prefix = "> ",
@@ -103,6 +103,9 @@ return {
     "MunifTanjim/nui.nvim",
     --- The below dependencies are optional,
     "nvim-tree/nvim-web-devicons", -- or echasnovski/mini.icons
+    {
+      "github/copilot.vim",
+    },
     {
       -- support for image pasting
       "HakonHarnes/img-clip.nvim",

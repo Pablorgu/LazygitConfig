@@ -1,5 +1,5 @@
 return {
-  "vyfor/cord.nvim",
+  "ThePrimeagen/cord.nvim",
   config = function()
     require("cord").setup({
       display = {
